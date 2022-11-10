@@ -1,52 +1,48 @@
-div{
-
-	
+body {
+  background-color: gray;
+}
+h1 {
+  font-family: Helvetica;
+  border: 2px solid powderblue;
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+}
+p {
+  font-size: 29px;
 }
 
-body{
-		background-image: horde_sign.jpg;
-		background-color: gray;
-}
-h1{
-	font-family: Helvetica;
-	  border: 2px solid powderblue;
-	    padding: 50px;
-		  margin: 50px;
-		  text-align: center;
-}
-p{	
-	font-size: 29px;
+a {
+  display: block;
+  font-size: 30px;
+  text-align: center;
 }
 
-a{
-	display:block;
-	font-size: 30px;
-	text-align: center;
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
-a:link{
-	color: green;
-	background-color: transparent;
-	text-decoration: none;
-}
-a:visited{
-	color: blue;
-	background-color: transparent;
-	text-decoration: none;
-}
-a:hover{
-	color: purple;
-	background-color: transparent;
-	text-decoration: underline;
-}
-a:active{
-	color: yellow;
-	background-color: transparent;
-	text-decoration: underline;
-}
-
-table, th, td{
-	border: 1px solid purple;
-	border-radius: 10px;
-	border-style: dashed;
+table,
+th,
+td {
+  border: 1px solid purple;
+  border-radius: 10px;
+  border-style: dashed;
 }
