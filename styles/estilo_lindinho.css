@@ -1,15 +1,17 @@
 body {
-  background-color: gray;
+  background-color: #3385ff;
 }
 h1 {
   font-family: Helvetica;
-  border: 2px solid powderblue;
-  padding: 50px;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding: 20px;
   margin: 50px;
   text-align: center;
 }
 p {
-  font-size: 29px;
+  font-size: 22px;
+  text-align: center;
 }
 
 a {
@@ -39,10 +41,28 @@ a:active {
   text-decoration: underline;
 }
 
-table,
 th,
 td {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 28px;
   border: 1px solid purple;
   border-radius: 10px;
-  border-style: dashed;
+  border-style: solid;
+}
+
+td {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 28px;
+  border: 1px solid purple;
+  border-radius: 10px;
+  border-style: none;
+}
+
+table {
+  background-color: #ffe699;
+  border: 5x solid #ffffff;
+  border-radius: 15px;
+  border-style: outset;
 }
