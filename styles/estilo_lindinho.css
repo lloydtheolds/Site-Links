@@ -1,13 +1,17 @@
 body {
-  background-color: #3385ff;
+  background-image: url("/images/ardenweald.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 h1 {
   font-family: Helvetica;
-  border: 2px solid #ffffff;
+  border: 2px solid black;
   border-radius: 20px;
   padding: 20px;
   margin: 50px;
   text-align: center;
+  background-image: url("/images/ardenweald.png");
 }
 p {
   font-size: 22px;
@@ -41,28 +45,18 @@ a:active {
   text-decoration: underline;
 }
 
-th,
 td {
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Oswald", sans-serif;
   font-size: 28px;
   border: 1px solid purple;
   border-radius: 10px;
   border-style: solid;
 }
 
-td {
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 28px;
-  border: 1px solid purple;
-  border-radius: 10px;
-  border-style: none;
-}
-
 table {
-  background-color: #ffe699;
-  border: 5x solid #ffffff;
+  background-color: #668cff;
+  border: 5x solid #000000;
   border-radius: 15px;
   border-style: outset;
 }
