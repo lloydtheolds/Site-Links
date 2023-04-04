@@ -12,6 +12,7 @@ h1 {
   margin: 50px;
   text-align: center;
   background-image: url("/images/ardenweald.png");
+  background-repeat: no-repeat;
 }
 p {
   font-size: 22px;
@@ -49,7 +50,7 @@ td {
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-size: 28px;
-  border: 1px solid purple;
+  border: 1px solid #9933ff;
   border-radius: 10px;
   border-style: solid;
 }
