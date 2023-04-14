@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/ardenweald.png");
+  background-image: url(../images/ardenweald.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -11,11 +11,14 @@ h1 {
   padding: 20px;
   margin: 50px;
   text-align: center;
-  background-image: url("/images/ardenweald.png");
-  background-repeat: no-repeat;
+  /* background-color: aquamarine; */
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
 }
 p {
-  font-size: 22px;
+  font-size: 24px;
+  font-family: fantasy;
+  color: #ffffff;
   text-align: center;
 }
 
