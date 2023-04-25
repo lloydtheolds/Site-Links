@@ -58,6 +58,15 @@ td {
   border-style: solid;
 }
 
+th {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  /* border: 1px solid #9933ff;
+  border-radius: 10px;
+  border-style: solid; */
+}
+
 table {
   background-color: #668cff;
   border: 5x solid #000000;
