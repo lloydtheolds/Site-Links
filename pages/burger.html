@@ -21,12 +21,20 @@
         <h1>Create a burger!</h1>
         <section class="protein">
           <label for="patty">What type of protein would you like?</label>
-          <input type="text" name="patty" id="patty" />
+          <select name="patty" id="patty">
+            <option value="beef steak">Beef Steak</option>
+            <option value="beef steak">Pork Steak</option>
+            <option value="beef steak">Chicken Steak</option>
+            <option value="beef steak">Vegetarian Steak(Lentil)</option>
+            <option value="beef steak">Vegetarian Steak(Zucchini)</option>
+            <option value="beef steak">Vegetarian Steak(Chickpea)</option>
+            <option value="beef steak">Vegan Steak</option>
+          </select>
         </section>
         <hr />
         <section class="patties">
           <label for="amount">How many patties would you like?</label>
-          <input type="number" name="amount" id="amount" />
+          <input type="number" name="amount" id="amount" max="15" min="0" required/>
         </section>
         <hr />
         <section class="cooked">
